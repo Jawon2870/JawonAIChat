@@ -2,9 +2,9 @@
 
 [English](README.md) | [中文](README_cn.md) | Italiano
 
-Interfaccia utente web minimale per Gemini Pro Chat.
+Interfaccia utente web minimale per Jawon AI Chat.
 
-Live demo: [Gemini Pro Chat](https://www.geminiprochat.com)
+Live demo: [Jawon AI Chat](https://www.geminiprochat.com)
 
 [![image](https://github.com/babaohuang/GeminiProChat/assets/559171/d02fd440-401a-410d-a112-4b10935624c6)](https://www.geminiprochat.com)
 
@@ -23,8 +23,8 @@ Clicca sul pulsante in alto e seguire le istruzioni per distribuire la tua copia
 >
 > 1. Vai a questo repository [**palm-proxy**](https://github.com/antergone/palm-proxy) e fai clic su **"Deploy With Vercel"**.
 > 2. Una volta completata la distribuzione, riceverai un nome di dominio assegnato da Vercel (ad esempio, `https://xxx.vercel.app`).
-> 3. Nel tuo progetto **Gemini Pro Chat**, imposta una variabile di ambiente denominata "API_BASE_URL" con il valore corrispondente al dominio ottenuto dalla distribuzione del proxy Palm (`https://xxx.vercel.app`).
-> 4. Ridistribuisci il tuo progetto **Gemini Pro Chat** per finalizzare la configurazione. Questo dovrebbe risolvere il problema.
+> 3. Nel tuo progetto **Jawon AI Chat**, imposta una variabile di ambiente denominata "API_BASE_URL" con il valore corrispondente al dominio ottenuto dalla distribuzione del proxy Palm (`https://xxx.vercel.app`).
+> 4. Ridistribuisci il tuo progetto **Jawon AI Chat** per finalizzare la configurazione. Questo dovrebbe risolvere il problema.
 >
 > Grazie a [**antergone**](https://github.com/antergone/palm-proxy) per fornire questa soluzione.
 >

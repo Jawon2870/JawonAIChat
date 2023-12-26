@@ -4,7 +4,7 @@
 
 与 Gemini Pro 聊天的最简 WebUI。
 
-体验网址： [Gemini Pro Chat](https://www.geminiprochat.com)
+体验网址： [Jawon AI Chat](https://www.geminiprochat.com)
 
 > [!WARNING]
 > 本项目为开源项目，使用者必须在遵循 GOOGLE 的[使用条款](https://ai.google.dev/terms)以及**法律法规**的情况下使用，不得用于非法用途。
@@ -27,8 +27,8 @@
 >
 > 1. 前往 [**palm-proxy**](https://github.com/antergone/palm-proxy) 仓库并点击其中的 **“Deploy With Vercel”**。
 > 2. 部署完成后，你将收到 Vercel 分配的域名 （例如 `https://xxx.vercel.app`）。
-> 3. 在你的 **Gemini Pro Chat** 项目中，设置名为 `API_BASE_URL` 的环境变量，其值为部署 palm-proxy 时获得的域名 (`https://xxx.vercel.app`)。
-> 4. 重新部署你的 **Gemini Pro Chat** 项目来完成配置。这应该可以解决问题。
+> 3. 在你的 **Jawon AI Chat** 项目中，设置名为 `API_BASE_URL` 的环境变量，其值为部署 palm-proxy 时获得的域名 (`https://xxx.vercel.app`)。
+> 4. 重新部署你的 **Jawon AI Chat** 项目来完成配置。这应该可以解决问题。
 >
 > 感谢 [**antergone**](https://github.com/antergone/palm-proxy) 提供解决方案。
 

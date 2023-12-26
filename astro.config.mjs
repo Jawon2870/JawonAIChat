@@ -25,7 +25,7 @@ export default defineConfig({
       registerType: 'autoUpdate',
       injectRegister: 'inline',
       manifest: {
-        name: 'Gemini Pro Chat',
+        name: 'Jawon AI Chat',
         short_name: 'Gemini Pro',
         description: 'Minimal web UI for Gemini Pro.',
         theme_color: '#212129',
