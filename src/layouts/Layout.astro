@@ -44,29 +44,6 @@ const { title } = "Jawon AI Chat";
           }
       }, 100);
 
-      // 滚动到顶部或底部按钮
-      const backToTopButton = document.getElementById('back-to-top');
-      const backToBottomButton = document.getElementById('back-to-bottom');
-
-      window.addEventListener('scroll', function() {
-        if (window.pageYOffset > 100) {
-          backToTopButton.classList.add('show');
-          backToBottomButton.classList.add('show');
-        } else {
-          backToTopButton.classList.remove('show');
-          backToBottomButton.classList.remove('show');
-        }
-      });
-
-      backToTopButton.addEventListener('click', function(e) {
-        e.preventDefault();
-        window.scrollTo({ top: 0, behavior: 'smooth' });
-      });
-
-      backToBottomButton.addEventListener('click', function(e) {
-        e.preventDefault();
-        window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' });
-      });
 
     </script>
   </body>
