@@ -1,8 +1,8 @@
 setInterval(() => {
-    // Get all `<a>` tags in the webpage
+    // 所有链接在新页面打开
     const links = document.querySelectorAll("a");
-    // Loop through all `<a>` tags using a `for...in` loop
-    for (let i in links) {
-            links[i].target = "_blank";
+    for (let i = 0; i < links.length; i++) {
+        links[i].target = "_blank";
+        
     }
 }, 100);
