@@ -35,6 +35,7 @@ const { title } = "Jawon AI Chat";
     </body>
     <script>
         setInterval(() => {
+            // 所有链接在新页面打开
             const links = document.querySelectorAll("a");
             for (let i = 0; i < links.length; i++) {
                 links[i].target = "_blank";
@@ -45,22 +46,22 @@ const { title } = "Jawon AI Chat";
         const backToTopButton = document.getElementById('back-to-top');
         const backToBottomButton = document.getElementById('back-to-bottom');
 
-        window.addEventListener('scroll', function() {
-            if (window.pageYOffset > 100) {
-            backToTopButton.classList.add('show');
-            backToBottomButton.classList.add('show');
+        window.addEventListener('scroll', function () {
+            if (window.scrollY > 200) {
+                backToTopButton.classList.add('show');
+                backToBottomButton.classList.remove('show');
             } else {
-            backToTopButton.classList.remove('show');
-            backToBottomButton.classList.remove('show');
+                backToBottomButton.classList.add('show');
+                backToTopButton.classList.remove('show');
             }
         });
 
-        backToTopButton.addEventListener('click', function(e) {
+        backToTopButton.addEventListener('click', function (e) {
             e.preventDefault();
             window.scrollTo({ top: 0, behavior: 'smooth' });
         });
 
-        backToBottomButton.addEventListener('click', function(e) {
+        backToBottomButton.addEventListener('click', function (e) {
             e.preventDefault();
             window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' });
         });
@@ -132,11 +133,14 @@ const { title } = "Jawon AI Chat";
     position: fixed;
     bottom: 20px;
     right: 20px;
+    width: 70px;
+    height: 70px;
+    background-color: #4a548a80;
     display: none;
   }
 
   .show {
-    display: block;
+    display: block !important;
   }
 
   /* 匹配宽度小于 768px 的设备的样式（手机平板等） */
