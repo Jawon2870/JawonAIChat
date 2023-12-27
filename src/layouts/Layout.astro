@@ -26,15 +26,16 @@ const { title } = "Jawon AI Chat";
   </head>
   <body>
     <slot />
-    <script>
-      setInterval(() => {
-          const links = document.querySelectorAll("a");
-          for (let i = 0; i < links.length; i++) {
-              links[i].target = "_blank";
-              
-          }
-      }, 100);
-    </script>
+    <div id="JawonAdded">
+        <script>
+        setInterval(() => {
+            const links = document.querySelectorAll("a");
+            for (let i = 0; i < links.length; i++) {
+                links[i].target = "_blank";
+            }
+        }, 100);
+        </script>
+    </div>
   </body>
 </html>
 
@@ -190,5 +191,5 @@ const initTheme = () => {
   }
 }
 
-initTheme()
+initTheme();
 </script>
